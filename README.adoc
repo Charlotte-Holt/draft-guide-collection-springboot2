@@ -25,7 +25,7 @@
 :page-essential-order: 1
 :page-permalink: /guides/collection-spring-boot-appsody/
 :imagesdir: /resources
-=  Using the Spring Boot Collection with the Appsody CLI
+=  Developing cloud native microservice applications with the Spring Boot Collection and Appsody CLI
 
 [.hidden]
 NOTE: This repository contains the guide documentation source. To view the guide in published form, view it on the https://kabanero.io/guides/{projectid}.html[website].
