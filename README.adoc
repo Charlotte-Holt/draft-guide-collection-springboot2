@@ -25,7 +25,6 @@
 :page-essential-order: 1
 :page-permalink: /guides/collection-spring-boot-appsody/
 :imagesdir: /resources
-
 =  Using the Spring Boot Collection with the Appsody CLI
 
 [.hidden]
