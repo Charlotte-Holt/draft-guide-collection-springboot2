@@ -374,7 +374,7 @@ After the application deploys, you see a message similar to the following exampl
 Deployed project running at "http://simple-spring-boot2.knative-serving.192.168.1.10.nip.io"
 ----
 
-To see the response from your application, point your browser to the `http://simple-spring-boot2.knative-serving.192.168.1.10.nip.io/example` URL.
+To see the response from your application, point your browser to `<URL_STRING>/example`, where <URL_STRING> is the URL that was returned in the previous step.
 
 // =================================================================================================
 // Delivering to enterprise pipelines
