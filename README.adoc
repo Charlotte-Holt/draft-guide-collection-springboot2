@@ -382,6 +382,6 @@ To see the response from your application, point your browser to the `http://sim
 
 == Delivering to enterprise pipelines
 
-After you develop and test your application, it’s time to deliver it to your enterprise Kabanero pipelines. To deliver it to the pipelines, push the project to a pre-configured Git repository. This repository can be public or enterprise. Your operations team configures the webhooks on the repository that trigger the pipelines. For more information about configuring webhooks for Tekton, see https://github.com/kabanero-io/guide-collection-microprofile/blob/master/www%E2%80%A6%E2%80%8B[David’s topic].
+After you develop and test your application, it’s time to deliver it to your enterprise Kabanero pipelines. To deliver it to the pipelines, push the project to a pre-configured Git repository. This repository can be public or enterprise. Your operations team configures the webhooks on the repository that trigger the pipelines.
 
 === Nice work!
