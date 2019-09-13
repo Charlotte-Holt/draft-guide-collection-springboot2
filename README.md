@@ -7,7 +7,7 @@ Explore how to use the Spring Boot Kabanero Collection and Appsody CLI to create
 
 You will use the Kabanero Spring Boot Collection with the Appsody CLI to create and run a simple cloud native microservice application. Then, you'll update the application and deploy it to Kubernetes or Knative.
 
-Kabanero's Spring Boot Collection contains all the components you need to develop your microservice application, including the Spring Boot application stack and all the necessary container build and deployment artifacts.
+Kabanero's Spring Boot Collection contains all the components you need to develop your microservice application, including the Spring Boot application stack and any necessary container build and deployment artifacts.
 
 ## Prerequisites
 
@@ -18,7 +18,7 @@ Kabanero's Spring Boot Collection contains all the components you need to develo
 
 ## Getting Started
 
-To obtain the Spring Boot Collection, Appsody must be configured to point to the Kabanero repository. The instructions in this guide use the public index for Kabanero Version 0.1.2.
+To obtain the Spring Boot Collection, Appsody must be configured to point to the Kabanero repository. The instructions in this guide use the public index for Kabanero Version 0.1.2, which you can replace with your enterprise-specific index if you have one.
 
 ### Configuring Appsody
 
@@ -40,7 +40,7 @@ Next, run the following command to add the Kabanero index:
 ```
 appsody repo add kabanero https://github.com/kabanero-io/collections/releases/download/v0.1.2/kabanero-index.yaml
 ```
-Check the existing repositories again to see that it was added:
+Check the available repositories again to see that the Kabanero repository was added:
 
 ```
 appsody repo list
@@ -49,13 +49,13 @@ NAME        URL
 kabanero    https://github.com/kabanero-io/collections/releases/download/v0.1.2/kabanero-index.yaml
 ```
 
-In this example, the asterisk (\*) shows that `appsodyhub` is the default repository. Run the following command to set the Kabanero index to the default:
+In this example, the asterisk (\*) shows that `appsodyhub` is the default repository. Run the following command to set the Kabanero index as the default repository:
 
 ```
 appsody repo set-default kabanero
 ```
 
-Check the existing repositories to see that it was updated:
+Check the available repositories again to see that the default is updated:
 
 ```
 appsody repo list
@@ -153,7 +153,7 @@ This message indicates that the Tomcat server is started and you are ready to be
 
 You will create a simple new REST endpoint and add it to the application.
 
-Navigate to the endpoint with a browser to confirm that the endpoint does not currently exist. Point your browser to the http://localhost:8080/example URL. You see the following `HTTP 404` error that shows Spring's default *Whitelabel Error Page*:
+Navigate to the endpoint with a browser to confirm that the endpoint does not currently exist. Point your browser to the http://localhost:8080/example URL. You see the following `HTTP 404` error that shows Spring's default `Whitelabel Error Page`:
 
 ```
 Whitelabel Error Page
@@ -272,7 +272,7 @@ Use the following command to stop the deployed application:
 appsody deploy delete
 ```
 
-After you run this command, and the deployment is deleted, you see the following message:
+After you run this command and the deployment is deleted, you see the following message:
 
 ```
 Deployment deleted
